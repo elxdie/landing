@@ -1,0 +1,19 @@
+.footer {
+  background-color: #E2ECE9;
+  width: 500px;
+  height: auto;
+  border-radius: 14px;
+  /* method to enable to center the text */
+  text-align: center;
+  /* space between the text and the images */
+  margin-bottom: 30px;
+  color: rgb(185, 114, 251);
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  /* place the box at the center */
+  margin: 0 auto;
+}
+
+li {
+  /* remove bullet points and put them next to each other */
+  display: inline;
+}

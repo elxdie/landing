@@ -1,0 +1,36 @@
+.banner {
+  /* add banner image */
+  background-image: url("https://cdnb.artstation.com/p/assets/images/images/053/357/569/large/yan-ru-05.jpg?1662018396");
+  /* define its dimension */
+  width: auto;
+  height: 450px;
+  /* makes the image fit well in the box */
+  background-size: cover;
+  /* method to move the text */
+  padding-top: 120px;
+  padding-left: 50px;
+  /* add shadow to the text with its opacity at the end */
+  text-shadow: 1px 1px 3px rgb(0, 0, 0);
+  border-radius: none;
+  /* add shadow to the box with its opacity at the end */
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.43);
+  /* add space between the boxes */
+  margin-bottom: 30px;
+}
+
+/* change the title */
+.banner h1 {
+  font-size: 50px;
+  color: white;
+}
+
+/* change color of a specific word when selecting span */
+span {
+  color: rgb(185, 114, 251);
+}
+
+/* change the description */
+.banner h5 {
+  font-size: 20px;
+  color: white;
+}
